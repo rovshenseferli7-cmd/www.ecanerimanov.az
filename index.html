@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E.C.A Serel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="topbar">
+    <div class="logo">E.C.A <span>Serel</span></div>
+    <nav>
+      <a href="#">Ana səhifə</a>
+      <a href="registration.html">Qeydiyyat</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>E.C.A Serel Showroom</h1>
+      <p>Premium hamam və mətbəx avadanlıqları</p>
+      <a href="#products" class="hero-btn">Məhsullara bax</a>
+    </div>
+  </section>
+
+  <div class="search-box">
+    <input type="text" id="search" placeholder="Məhsul axtar...">
+  </div>
+
+  <main class="container" id="products">
+
+    <aside class="sidebar">
+      <h2>Kateqoriyalar</h2>
+
+      <button class="category-btn active" data-category="unitaz">Asma Unitaz</button>
+      <button class="category-btn" data-category="tulpan">Tülpan</button>
+      <button class="category-btn" data-category="vanna">Vanna</button>
+      <button class="category-btn" data-category="kran">Kran</button>
+      <button class="category-btn" data-category="aksesuar">Aksesuarlar</button>
+      <button class="category-btn" data-category="dus">Duş sistemləri</button>
+      <button class="category-btn" data-category="kabin">Duş kabin</button>
+      <button class="category-btn" data-category="skaf">Hamam şkafı</button>
+      <button class="category-btn" data-category="moyka">Mətbəx moykası</button>
+      <button class="category-btn" data-category="bide">Bide smestiteli</button>
+      <button class="category-btn" data-category="tulpanKran">Tülpan smestiteli</button>
+      <button class="category-btn" data-category="standart">Standart Unitaz</button>
+      <button class="category-btn" data-category="metbex">Mətbəx smestiteli</button>
+      <button class="category-btn" data-category="caska">Çaşkalar</button>
+      <button class="category-btn" data-category="jet">Jet</button>
+      <button class="category-btn" data-category="bacok">Divar içi baçok</button>
+      <button class="category-btn" data-category="dusDivar">Divar içi duş</button>
+      <button class="category-btn" data-category="tulpanDivar">Divar içi tülpan</button>
+      <button class="category-btn" data-category="bideDivar">Divar içi bide</button>
+
+    </aside>
+
+    <section class="content">
+      <h2 id="title">Asma Unitaz</h2>
+      <div class="gallery" id="gallery"></div>
+    </section>
+
+  </main>
+
+  <!-- POPUP -->
+  <div class="popup" id="popup">
+    <div class="popup-box">
+      <span id="close">&times;</span>
+      <div class="popup-img">img</div>
+      <h3 id="pname"></h3>
+      <p id="pprice"></p>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <section class="contact">
+    <h2>Bizimlə əlaqə</h2>
+
+    <div class="contact-box">
+
+      <div class="form">
+        <input placeholder="Ad">
+        <input placeholder="Soyad">
+        <input placeholder="Email">
+        <textarea placeholder="Mesaj"></textarea>
+        <button>Göndər</button>
+      </div>
+
+      <div class="map">
+        <iframe src="https://www.google.com/maps?q=Ziya%20Bunyadov%20322B&output=embed"></iframe>
+        <div class="address">Ünvan: Ziya Bünyadov pr 322B</div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <h3>E.C.A Serel</h3>
+    <p>Premium hamam aksesuarları</p>
+  </footer>
+
+  <a href="https://wa.me/994557990160" class="whatsapp">💬</a>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
